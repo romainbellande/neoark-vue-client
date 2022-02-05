@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button {
+  @apply outline-none;
+  @apply focus:outline-none;
+}
